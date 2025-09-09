@@ -3,13 +3,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ofos</groupId>
+  
+  
+  <groupID>com.ofos</groupID>
+  
   <artifactId>ofos-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  
+  
+  <version>1.O-SNAPSHOT</version> 
+  
   <packaging>war</packaging>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
+    
+    <maven.complier.source>17</maven.complier.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -26,13 +33,15 @@
     <!-- JSP API -->
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
-      <artifactId>javax.servlet.jsp-api</artifactId>
+    
+      <artifactId>javax.servlet.jsp-ap</artifactId>
       <version>2.3.3</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
 
   <build>
-    <finalName>ofos</finalName>
-  </build>
+    
+    <finalName>ofos</finalNme>
+  </buid>
 </project>
